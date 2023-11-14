@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700&family=Poppins:wght@400;500;600;800&display=swap');*
+ 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgba(39, 37, 37, 1);
+}
+
+.naveContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40%;
+    padding-left: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a{
+    color: white;
+}
+
+.mainCorp{
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+}
+
+h2{
+    color: gray;
+    padding-bottom: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.botaoCorp{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,191,176,1) 0%, rgba(154,242,224,1) 100%, rgba(144,236,218,1) 100%, rgba(155,242,224,1) 100%);
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    padding: 20px 55px; /* Espaçamento interno do botão */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bublleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 5px;
+}
+
+.bubleCSS{
+    background: hsl(0, 0%, 100%, 0.1);
+    padding: 12px;
+    border-radius: 100%;
+    position: absolute;
+    left: 400px;
+    bottom: -150px;
+}
+
+.bubleHTML{
+    background: hsl(0, 0%, 100%, 0.1);
+    padding: 25px;
+    border-radius: 100%;
+    position: absolute;
+    top: -300px;
+    left: 150px;
+    transform: rotate(20deg);
+}
+
+.bubleJs{
+    background: hsl(0, 0%, 100%, 0.1);
+    padding: 20px;
+    border-radius: 100%;
+    position: absolute;
+    right: 200px;
+    top: -350px;
+
+}
+
+.bubleC{
+    background: hsl(0, 0%, 100%, 0.1); 
+    padding: 24px;
+    border-radius: 100%;
+    position: absolute;
+    right: 20px;
+    transform: rotate(-20deg);
+    bottom: 30%;
+    right: 100px;
+}
+
+.html{
+    width: 95px;
+}
+
+.c{
+    width: 60px;
+}
+
+.css{
+    width: 80px;
+}
+
+.js{
+    width: 90px;
+}
